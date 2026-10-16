@@ -1,0 +1,47 @@
+# ==========================================
+# Dependencies (โฟลเดอร์แพ็กเกจ)
+# ==========================================
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# ==========================================
+# Environment Variables & Secrets (ไฟล์ความลับ)
+# ==========================================
+.env
+.env.local
+.env.*.local
+server/.env
+client/.env
+
+# ==========================================
+# Production & Build Output (โฟลเดอร์ไฟล์ Build)
+# ==========================================
+dist/
+client/dist/
+build/
+client/build/
+
+# ==========================================
+# Logs & Debugging (ไฟล์ Log ระบบ)
+# ==========================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==========================================
+# Editor & OS Files (ไฟล์ของ IDE และ OS)
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
